@@ -366,3 +366,23 @@
   border-left: 6px solid #0dd1c1;
   background: linear-gradient(to right, #ffffff, #f0fdfa);
 }
+
+.info-item input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 5px;
+  font-family: inherit;
+}
+
+.save-profile-btn {
+  background-color: #10b981; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
