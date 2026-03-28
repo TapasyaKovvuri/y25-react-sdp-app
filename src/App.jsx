@@ -31,7 +31,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/y25-react-sdp-app">
       
       <Routes>
         <Route path="/" element={<CustomerLayout isLoggedIn={isLoggedIn} onLogout={handleLogout} />}>
