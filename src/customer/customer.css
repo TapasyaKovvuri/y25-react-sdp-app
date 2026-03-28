@@ -361,3 +361,8 @@
     grid-template-columns: 1fr;
   }
 }
+
+.subscription-card.active {
+  border-left: 6px solid #0dd1c1;
+  background: linear-gradient(to right, #ffffff, #f0fdfa);
+}
